@@ -28,10 +28,12 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Blogs" />
       <h1>My blogs</h1>
-      <p>Please read my blogs</p>
+      <p>Please really DO NOT read my blogs</p>
       <ul>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li><Link to={node.frontmatter.path}>{node.frontmatter.title}</Link></li>
+          <li>
+            <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>
+          </li>
         ))}
       </ul>
     </Layout>
