@@ -1,4 +1,5 @@
 ---
+slug: "my-second-post"
 path: "/blog/my-second-post"
 date: "2020-04-08"
 title: "JavaScript Marathon 2"
