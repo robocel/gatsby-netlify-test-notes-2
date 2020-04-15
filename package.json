@@ -29,9 +29,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "cd functions/post-comments && npm i && cd ../dad-jokes-2 && npm i && cd ../../ && gatsby build",
     "develop": "gatsby develop",
-    "postinstall": "cd functions/post-comments && npm i && cd ../dad-jokes-2 && npm i",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
