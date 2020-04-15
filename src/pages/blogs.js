@@ -28,7 +28,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Blogs" />
       <h1>My blogs</h1>
-      <p>Please do NOT read my blogs</p>
+      <p>Please actually do read my blogs</p>
       <ul>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <li>
