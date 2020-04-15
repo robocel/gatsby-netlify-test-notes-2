@@ -31,7 +31,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "postinstall": "cd functions/post-comments && npm i",
+    "postinstall": "cd functions/post-comments && npm i && cd ../dad-jokes && npm i && cd../dad-jokes-2 && npm i",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
