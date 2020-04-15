@@ -1,12 +1,16 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+---
+path: "/blog/my-first-post"
+date: "2020-04-08"
+title: "JavaScript Marathon 1"
+---
 
-// You can delete this file if you're not using it
-const path = require(`path`)
+# This is a title
 
+## This is a subtitle
+
+Here's a link to [Google](https://www.google.com)
+
+```js{3, 8,9}
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
@@ -43,3 +47,4 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 }
+```
